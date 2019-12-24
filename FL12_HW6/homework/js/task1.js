@@ -10,7 +10,6 @@ if ( a === 0 || isNaN(a) || isNaN(b) || isNaN(c) || a === '' || b === '' || c ==
     console.log('Invalid input data');
 } else {
     d = b * b - four * a * c;
-    
     if (d < 0) {
         console.log('no solution');
     } else if (d === 0) {
