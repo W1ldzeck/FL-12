@@ -32,7 +32,7 @@ while (isGame) {
             Possible prize on current attempt: ${possiblePrize} `)
   );
   if (userAnswer === guessNumber) {
-    totalPrize = possiblePrize;
+    totalPrize += possiblePrize;
     alert(`Congratulation, you won! Your prize is: ${totalPrize}$.`);
     confirm('Do you want to continue?')
       ? isGameContinue = true
